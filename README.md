@@ -4,6 +4,8 @@ A responsive adaptive page via Bootstrap framework.
 
 Сurrent programs, courses, 
    events, competitions and master classes for Ala-Too students
+   
+  #  [GitHub Pages](https://kamilotta.github.io/kamilotta.github.io-final-/).
 
 
 
