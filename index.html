@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+     <header>
+         <nav class="navbar navbar-expand-md navbar-light bg-light pb-2 pt-2">
+             <div class="container">
+                 <a class="navbar-brand" href="#">
+                     <img src="images/logonav.jpg" alt="iaau">
+                 </a>
+                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                 </button>
+                 <div class="collapse navbar-collapse mt-3" id="navbarNav">
+                     <ul class="navbar-nav text-uppercase navigations ms-auto">
+                         <li class="nav-item me-4">
+                             <a class="nav-link active" aria-current="page" href="#"> Home</a>
+                         </li>
+                         <li class="nav-item me-4">
+                             <a class="nav-link" href="#">Choose experience</a>
+                         </li>
+                         <li class="nav-item me-4">
+                             <a class="nav-link" href="#">online Programs</a>
+                         </li>
+                         <li class="nav-item me-4">
+                             <a class="nav-link" href="#">career </a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link" href="#">Contact</a>
+                         </li>
+                     </ul>
+
+                 </div>
+             </div>
+         </nav>
+     </header>
+
+    
+      <div id="carousel1" class="carousel slide crsl" data-bs-ride="carousel">
+          <div class="carousel-indicators mb-0">
+              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true"
+                  aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="images/nav1.jpg" class="d-block w-100" alt="">
+                  <div class="carousel-caption d-none d-lg-block text-white crsl-text">
+                      <h1>Do Big, Discover Yourself</h1>
+                      <p class="d-none d-xl-block">Welcome to Student International Programs Portal for Ala-too University
+                          students. In this portal, you can find all the information that you need for your
+                          international student mobility experience abroad.</p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <img src="images/nav1.jpg" class="d-block w-100" alt="">
+              </div>
+              <div class="carousel-item">
+                  <img src="images/nav1.jpg" class="d-block w-100" alt="">
+              </div>
+          </div>
+          <button class="carousel-control-prev " type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon arrow1" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+              <span class="carousel-control-next-icon arrow2" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+
+      <div class="yblock bg-warning ">
+          <div class="container">
+              <div class="alert pt-4" role="alert">
+                  <div class="row">
+                      <div class="col col-12 col-md-8 col-lg-10">
+                          <p class="text-white"> International Programs Coordinator ,  <a href="#"
+                                  class="alert-link plink"> Contact us today</a></p>
+                      </div>
+
+                      <div class="col col-12 col-md-4 col-lg-2">
+                          <button type="button"
+                              class="btn linkbtn text-capitalize rounded-0 w-100"
+                              data-bs-toggle="modal" data-bs-target="#formModal">
+                              Get consultation
+                          </button>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+
+      <div class="modal fade" id="formModal" tabindex="-1" aria-labelledby="formModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title text-white fs-6 fw-bold" id="formModalLabel">Sign up</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                      <form action="#" id="signform">
+                          <div class="mb-3">
+                              <label for="username" class="form-label text-white">Your name:</label>
+                              <input type="text" class="form-control" placeholder="Name" id="username" name="username"
+                                  required>
+                          </div>
+
+                          <div class="mb-3">
+                              <label for="user-email" class="form-label text-white">Email address:</label>
+                              <input type="email" class="form-control" id="user-email" placeholder="name@example.com"
+                                  name="user-email" required>
+                          </div>
+
+                          <div class="mb-3">
+                              <label for="user-password" class="form-label text-white">Your account password:</label>
+                              <input type="password" class="form-control" placeholder="password" id="user-password"
+                                  name="user-password" required
+                                  pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*">
+                              <small class="text-dark">Password must consist minimum 8 symbols, dumber, one uppercase
+                                  and one lowercase letters </small>
+                          </div>
+
+                          <div class="mb-3">
+                              <label for="user-passwordrepeat" class="form-label text-white">Repeat entered
+                                  password</label>
+                              <input type="Password" class="form-control" placeholder="Password repeat"
+                                  id="user-passwordrepeat" name="user-passwordrepeat" required
+                                  pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*">
+                          </div>
+                      </form>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="submit" class="btn btn-dark text-white" form="signform">Send</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+<div class="container mt-5 pt-4">
+    <h3>The Newest <span class="h3sp">2022-2023 programs</span> available for our students!</h3>
+
+   
+<div class="row g-5 mt-3 ">
+        <div class="col col-12 col-md-6 col-lg-3">
+ <div class="card rounded-0 ">
+     <img src="images/1.jpg" class="card-img-top border-0 rounded-0" alt="">
+     <div class="card-body p-0 ">
+         <a class="btn btn-info d-block graphics my-4 mx-auto py-1 py-md-2 text-white  " href="#" role="button">Learn more </a>
+     </div>
+     <div class="card-footer border-0 bg-transparent">
+         <p class="design m-0 text-center">Community Engagement Exchange Program in the USA. Deadline: 20 January 2023</p>
+     </div>
+ </div>
+ </div>
+
+<div class="col col-12 col-md-6 col-lg-3">
+       <div class="card rounded-0 ">
+           <img src="images/4.jpg" class="card-img-top border-0 rounded-0" alt="">
+           <div class="card-body p-0 ">
+               <a class="btn btn-success d-block graphics my-4 mx-auto py-2  text-white" href="#"
+                   role="button">Learn more</a>
+           </div>
+           <div class="card-footer border-0 bg-transparent">
+               <p class="design m-0 text-center"> YES Exchange Program in the USA | Fully Funded. Deadline: 2 January 2023 </p>
+           </div>
+       </div>
+   </div>
+
+     <div class="col col-12 col-md-6 col-lg-3">
+         <div class="card rounded-0 ">
+             <img src="images/5.jpg" class="card-img-top  border-0 rounded-0" alt="">
+             <div class="card-body p-0 ">
+                 <a class="btn graphpink d-block graphics my-4 mx-auto py-2  text-white" href="#"
+                     role="button">Learn more</a>
+             </div>
+             <div class="card-footer border-0 bg-transparent">
+                 <p class="design m-0 text-center">Biodiversity monitoring field volunteer in Greece.
+                    Applications open
+                 </p>
+             </div>
+         </div>
+     </div>
+
+      <div class="col col-12 col-md-6 col-lg-3">
+          <div class="card rounded-0 ">
+              <img src="images/6.jpg" class="card-img-top border-0 rounded-0" alt="">
+              <div class="card-body p-0 ">
+                  <a class="btn btn-warning d-block graphics my-4 mx-auto py-2  text-white" href="#"
+                      role="button">Learn more</a>
+              </div>
+              <div class="card-footer border-0 bg-transparent">
+                  <p class="design m-0 text-center">PhD in John Cabot University.
+                    Deadline: 20 March 2023
+                  </p>
+              </div>
+          </div>
+      </div>
+
+        <div class="col col-12 col-md-6 col-lg-3">
+            <div class="card rounded-0 ">
+                <img src="images/2.jpg" class="card-img-top border-0 rounded-0" alt="">
+                <div class="card-body p-0 ">
+                    <a class="btn btn-success d-block graphics my-4 mx-auto py-2  text-white" href="#"
+                        role="button">Learn more</a>
+                </div>
+                <div class="card-footer border-0 bg-transparent">
+                    <p class="design m-0 text-center">Hansen Leadership program in the Curtin.
+                        Deadline: 14 February 2023
+                         </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col col-12 col-md-6 col-lg-3">
+            <div class="card rounded-0 ">
+                <img src="images/3.jpg" class="card-img-top border-0 rounded-0" alt="">
+                <div class="card-body p-0 ">
+                    <a class="btn btn-warning d-block graphics my-4 mx-auto py-2  text-white" href="#"
+                        role="button">Learn more</a>
+                </div>
+                <div class="card-footer border-0 bg-transparent">
+                    <p class="design m-0 text-center">MSc in logistics engineering in University of Palermo Argentina. 
+                        Applications open at 29 December 2022
+                    </p>
+                </div>
+            </div>
+        </div>
+
+             <div class="col col-12 col-md-6 col-lg-3">
+                 <div class="card rounded-0 ">
+                     <img src="images/7.jpg" class="card-img-top border-0 rounded-0" alt="">
+                     <div class="card-body p-0 ">
+                         <a class="btn btn-info d-block graphics my-4 mx-auto py-2  text-white" href="#"
+                             role="button">Learn more</a>
+                     </div>
+                     <div class="card-footer border-0 bg-transparent">
+                         <p class="design m-0 text-center">Erasmus Mundus Joint Master programmes in Europe.
+                            Applications open
+                         </p>
+                     </div>
+                 </div>
+             </div>
+
+                <div class="col col-12 col-md-6 col-lg-3">
+                    <div class="card rounded-0 ">
+                        <img src="images/9.jpg" class="card-img-top border-0 rounded-0" alt="">
+                        <div class="card-body p-0 ">
+                            <a class="btn graphpink d-block graphics my-4 mx-auto py-2  text-white" href="#"
+                                role="button">Learn more</a>
+                        </div>
+                        <div class="card-footer border-0 bg-transparent">
+                            <p class="design m-0 text-center">Equine Summer Study in Scotland.
+                                Deadline: 1 February 2023
+                            </p>
+                        </div>
+                    </div>
+                </div>
+   </div>
+   </div>
+
+
+   <div class="mt-5 mb-5 container">
+       <h2 class="border-bottom border-danger border-1 pb-3 mb-4"></h2>
+       <div class="row  mb-3 p-3 row-cols-1 row-cols-lg-2 g-4 border-bottom border-danger border-1">
+
+           <div class="col">
+             Meet your education and career goals
+               <ul class="mt-2">
+                   <li class="fw-bold">Experience a completely new way of life.</li>
+                   <li>Expand your employment opportunities</li>
+                   <li>Find New Interests</li>
+                   <li>Personal Development.</li>
+                   <li>Acquire global skills and access personal and professional opportunities.</li>
+                    <li>Expands Your Global Networking.</li>
+               </ul>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum aut explicabo veritatis soluta autem
+                   excepturi dolorum sunt vero rem qui! Lorem ipsum dolor sit amet consectetur adipisicing elit ,
+                   temporibus.</p>
+           </div>
+
+           <div class="col">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/j7EPBNHLYRM" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe></div>
+       </div>
+   </div>
+
+<div class="container">
+    <div class="weatherWidget"></div>
+</div>
+  
+
+  <script>
+      window.weatherWidgetConfig = window.weatherWidgetConfig || [];
+      window.weatherWidgetConfig.push({
+          selector: ".weatherWidget",
+          apiKey: "FEDEJEFCM7RX57DYCD7FBDMA9", 
+          location: "Bishkek, Kyrgyzstan", 
+          unitGroup: "metric", 
+          forecastDays: 5, 
+          title: "Bishkek,Kyrgyzstan", 
+          showTitle: true,
+          showConditions: true
+      });
+
+      (function () {
+          var d = document,
+              s = d.createElement('script');
+          s.src = 'https://www.visualcrossing.com/widgets/forecast-simple/weather-forecast-widget-simple.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+      })();
+  </script>
+
+   <footer class="bg-dark text-uppercase footer">
+       <div class="container">
+           <p>© 2022 Ala-Too University International programs Portal</p>
+       </div>
+   </footer>
+
+     <script>
+         var myModal = document.getElementById('formModal')
+         var myInput = document.getElementById('username')
+
+         myModal.addEventListener('shown.bs.modal', function () {
+             myInput.focus()
+         })
+     </script>
+    
+
+     <script src="js/app.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        var myModal = document.getElementById('formModal')
+        var myInput = document.getElementById('username')
+
+        myModal.addEventListener('shown.bs.modal', function () {
+            myInput.focus()
+        })
+    </script>
+
+</body>
+</html>
