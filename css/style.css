@@ -1,0 +1,140 @@
+body{
+   font-family: 'Raleway',
+   sans-serif;
+ overflow-x: hidden;
+}
+
+
+.navigations {
+    font-size: 15px;
+    font-weight: 600;
+    color: #3b404f;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 6px;
+    height: 6px;
+    opacity: 1;
+    background: white;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    margin-bottom: 1em;
+
+}
+
+.carousel-indicators .active {
+    background-color: yellow;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.crsl-text {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.crsl p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.arrow1 {
+    background-image: url(../images/slider-arrow-left.png);
+}
+
+.arrow2 {
+    background-image: url(../images/slider-arrow-right.png);
+}
+
+.yblock p {
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.plink {
+    color: #000;
+    font-style: italic;
+}
+
+.linkbtn {
+    font-size: 16px;
+    color: #fab702;
+    background-color: #fff;
+
+}
+
+
+h3{
+font-size: 30px;
+color:#5b5b5b;
+font-weight: 800;
+text-transform: uppercase;
+}
+
+ .h3sp{
+     color: #ea6a6a;
+ }
+
+
+.graphics{
+font-size: 12px;
+font-weight: 800;
+border-radius: 0;
+width: 50%;
+text-transform: uppercase;
+
+}
+
+.design{
+font-size: 12px;
+color:#4b4b4b;
+font-weight: 800;
+text-transform: uppercase;
+}
+
+.graphpink{
+    background: rgb(214, 43, 226);
+}
+
+
+.btn {
+    padding: 8px;
+}
+
+.footer{
+    margin-top: 8%;
+    padding-top: 30px;
+     padding-bottom: 10px;
+}
+
+.footer p{
+    font-size: 12px;
+    color:#e0e0e0;
+    font-weight: 600;
+   }
+
+   .modal-content{
+       background-color: #600d0dd1;
+   }
+
+ 
+
+
+
+    
+
+  
+      
+
+
+
+
+
+
