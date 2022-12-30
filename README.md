@@ -2,7 +2,7 @@
 A responsive adaptive page via Bootstrap framework.
 
 
-Сurrent programs, courses, competitions,
+Сurrent programs, courses, 
    events, competitions and master classes for Ala-Too students
 
 
