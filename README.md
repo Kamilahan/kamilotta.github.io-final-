@@ -1,5 +1,5 @@
 # kamilotta.github.io  # finalProject
-A responsive adaptive page by using Bootstrap framework.
+A responsive page by using Bootstrap framework.
 
 
 Сurrent programs, courses, 
